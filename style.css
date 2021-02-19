@@ -1,0 +1,96 @@
+* {
+	box-sizing: border-box;
+}
+
+header {
+	padding: 30px;
+	font-size: 35px;
+	background-color: rgb(34, 34, 34);
+	color: lightgray;
+}
+
+nav {
+	float: left;
+	width: 30%;
+	height: 70%;
+	padding: 20px;
+	background-color: gray;
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+	line-height:180%
+}
+
+nav ul a {
+	text-decoration: none;
+	color: lightgray;
+}
+
+article {
+	float: left;
+	padding: 20px;
+	width: 70%;
+	height: auto;
+	background-color: white;
+	color: rgb(34, 34, 34);
+}
+
+
+section::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+footer {
+	padding: 10px;
+	bottom: 0;
+    position: fixed;
+	text-align: center;
+	background-color: rgb(34, 34, 34);
+	color: lightgray;
+	width: 100%;
+}
+
+@media (max-width: 600px) {
+	nav, article {
+		width: 100%;
+		height: auto;
+	}
+}
+
+table {
+	border-collapse: collapse;
+}
+
+td, th {
+	border: 1px solid rgb(34, 34, 34);
+	text-align: left;
+	padding: 8px;
+}
+
+.t_bd{
+	background-color: rgb(200, 199, 255);
+}
+
+.t_be{
+	background-color: rgb(255, 242, 199);
+}
+
+.t_fe{
+	background-color: rgb(248, 199, 255);
+}
+
+.t_do{
+	background-color: rgb(210, 255, 199)
+}
+
+.t_so{
+	background-color: rgb(255, 201, 199)
+}
+
+.t_ot{
+	background-color: rgb(255, 254, 199)
+}
